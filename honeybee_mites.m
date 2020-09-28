@@ -72,11 +72,11 @@ forager_rate = .1d0;
 ratio_increase = 1.d0; % Increase in number of nurse bees to tend to brood if infected
 
 % Increase mortality of infected hive, drone, and forager castes
-increase_mortality_infected = 4.d0;
+increase_mortality_infected = 2.d0;
 
 % Increase mortality of infected pupae. Survival is further reduced if the
 % capped cells are multiply infested.
-increase_mortality_infected_pupae = 4.d0;
+increase_mortality_infected_pupae = 2.d0;
 
 
 % Number of days spent in each class 
